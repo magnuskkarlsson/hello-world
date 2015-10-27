@@ -2,7 +2,7 @@ package se.magnuskkarlsson.example.hello;
 
 public class Hello {
 
-    public static void main(String[] args) {
-        System.out.println("Hello");
+    public String hello(String name) {
+        return "Hello " + name;
     }
 }
